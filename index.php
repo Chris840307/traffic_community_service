@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <meta name="description" content="新竹市交通事故案件便民服務網">
   <meta name="csrf-param" content="authenticity_token" />
   <meta name="csrf-token" content="4JCY4Y+nNeqGQ8BehEkagAeykxD2hfVJEoY7GLW1PjAfRpABZzUAJC+OKeAyzr52lIinvxsJkpF9pf4cOF5NhA==" />
@@ -18,7 +17,6 @@
   <link rel="stylesheet" href="https://accessibility.moda.gov.tw/css/new_style.css?v=0831" />
   <link rel="stylesheet" href="https://accessibility.moda.gov.tw/css/new_version_css.css?v=0831" />
 </head>
-
 
 <noscript>
   <p>此網頁需要支援 JavaScript 才能正確運行，請先至你的瀏覽器設定中開啟 JavaScript。</p>
@@ -79,7 +77,6 @@
   <div style="background-color: Grey;height: 6vh">
     <div class="container header_links  d-flex h-100">
       <div class="row justify-content-center align-self-center">
-        <!--<a title="開始檢舉" href="/new/new.php"><i class="fas fa-pencil-alt"></i>&nbsp;開始檢舉</a>-->
         <a title="案件查詢" href="search.php"><i class="fas fa-search"></i>&nbsp;案件查詢</a>
       </div>
     </div>
@@ -89,6 +86,7 @@
     <div id="content-wrapper">
       <div class="container-fluid">
         <div class="flashes"></div>
+
         <div class="container">
           <div id="content" class="container"></div>
           <a href="#C" title="中央內容區塊" id="AC" accesskey="C" name="C" style="">:::</a>
@@ -121,16 +119,15 @@
               </div>
             </div>
           </div>
-  
+
           <div class="container_s" style="background-color: white; min-height: 600px;">
             <div class="row" style="padding-top: 20px; height: 100%;">
               <div class="container_s">
-
-                <div class="card" style="width:90%;border-right:1px solid orange!important;margin: 5px 10px 10px 10px;line-height: 23px; font-size: 12px; background-color: orange;">
+                <div class="card" style="margin: 5px 10px 10px 10px;line-height: 23px; font-size: 12px; background-color: orange;">
                   <h2 class="card-header page_title" style="color: white;text-align: center;">交通事故案件申請須知</h2>
-                  <div class="card-body bg-light" style="width: 99%; height: 100%; line-height: 28px; font-size: 12pt;">
-                    <div class="row">
-
+                  <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
+                    
+                  <div class="row">
                       <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
                         一、為提升政府行政透明度暨簡化行政程序，本局提供道路交通事故案件當事人或利害關係人得於線上申請道路交通事故初步分析研判表、現場圖及現場照片資料服務，並應遵守【政府資訊公開法】、【檔案法】及【個人資料保護法】等相關規定，另如有非法冒用當事人或利害關係人身分申請之行為致涉有法律責任部分，均應自行負責。
                       </div>
@@ -158,13 +155,10 @@
                       <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;color:blue;">
                         九、本項申請作業未經事故當事人同意而自行申辦者，將負相關法律責任。 <br>（委托書下載：<a href="https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc">https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc</a>）
                       </div>
-
-
                     </div>
                   </div>
                 </div>
               </div>
-
 
               <div class="card" style="margin: 5px 10px 10px 10px;line-height: 23px; font-size: 12px; background-color: #D9D9D9;">
                 <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
@@ -229,7 +223,6 @@
                 </li>
               </ul>
             </div>
-
           </div>
         </div>
       </footer>
@@ -259,6 +252,7 @@
         body {
           height: 100%;
         }
+
         ;
       </style>
 
@@ -273,9 +267,7 @@
             }
           });
         })
-        $(window).on('load', function() {
-          //$('#exampleModalCenter').modal('show');
-        });
       </script>
 </body>
+
 </html>
