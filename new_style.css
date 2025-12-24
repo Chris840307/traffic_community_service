@@ -1,0 +1,335 @@
+.apply-number-block {
+	background-color: #f2f2f2;
+	padding: 2.5rem 2.5rem;
+	border-radius: 0.3125rem;
+
+	display: flex;
+	align-items: center;
+}
+
+.apply-number-block .number-area {
+	flex: 0 0 60%;
+}
+
+.apply-number-block .icon-area {
+	flex: 0 0 40%;
+}
+
+@media (max-width: 31.25rem){
+	.apply-number-block {
+		flex-wrap: wrap;
+	}
+	.apply-number-block .number-area {
+		flex: 0 0 100%;
+		text-align: center;
+	}
+
+	.apply-number-block .icon-area {
+		display: none;
+		flex: 0 0 100%;
+		text-align: center;
+	}
+}
+
+.apply-number-block .number-area .number, .apply-number-block .icon-area .number {
+    font-size: 8rem;
+    line-height: 6.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.apply-number-block .number-area .number.blue {
+    color: #2b358c;
+}
+
+.apply-number-block .number-area .number.red {
+    color: #862a2b;
+}
+
+.custom-btn-type1 {
+	background-color: #2b358c;
+	color: #fff;
+	text-align: center;
+	padding: 0.625rem 1.25rem;
+	border-radius: 0.1875rem;
+	display: inline-block;
+    border: 0;
+}
+
+.custom-btn-type1.gray {
+	background-color: #808080;
+}
+
+table.customer-table-type-1 thead tr th {
+	padding: 0.9375rem !important;
+}
+table.customer-table-type-1 tbody tr td {
+	padding: 0.9375rem !important;
+	font-size: 0.875em;
+}
+
+.rwd-table-scroll {
+	overflow-x: auto;
+	margin-bottom: 1.875rem;
+}
+
+.rwd-table-scroll > table.customer-table-type-1 {
+	min-width: 31.25rem;
+	margin-bottom: 0rem;
+}
+
+table.customer-table-type-1 tbody tr.main-category td {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+table.customer-table-type-1 tbody tr td input {
+	background-color: #e6e6e6;
+}
+
+.main-service-add-row {
+	display: flex;
+	align-items: center;
+}
+
+.main-service-add-row .add-icon {
+	flex: 0 0 4.375rem;
+}
+
+.main-service-add-row .add-input {
+	flex: 0 0 calc( 100% - 11.875rem);
+}
+
+.main-service-add-row .add-input input {
+	min-height: 2.75rem;
+}
+
+.main-service-add-row .add-button {
+	flex: 0 0 7.5rem;
+}
+
+table.bordered.blue-head.customer-table-type-1 tbody tr td a.custom-btn-type1 {
+	color: #fff;
+}
+
+table.bordered.blue-head.customer-table-type-1 tbody tr td a.custom-btn-type1:hover {
+	color: #000000;
+}
+
+.app_detect_apply_info_list_block {
+
+}
+
+.app_detect_apply_info_list_block .list-item {
+	display: flex;
+	margin-bottom: 0.625rem;
+}
+
+.app_detect_apply_info_list_block .list-item .list-title {
+	flex: 0 0 18.75rem;
+	color: #2b358c;
+	font-weight: bold;
+}
+
+.app_detect_apply_info_list_block .list-item .list-content {
+	flex: 0 0 calc( 100% - 18.75rem );
+}
+
+
+
+@media (max-width: 48rem){
+	.app_detect_apply_info_list_block .list-item {
+		flex-wrap: wrap;
+	}
+	.app_detect_apply_info_list_block .list-item .list-title {
+		flex: 0 0 100%;
+	}
+
+	.app_detect_apply_info_list_block .list-item .list-content {
+		flex: 0 0 100%;
+	}
+}
+
+.app_name_row {
+	justify-content: space-between;
+}
+
+.app_name_row::before, .app_name_row::after {
+	display: none !important;
+}
+
+.app_explan_link {
+	line-height: 1.625rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+
+    color: #4d4d4d;
+}
+
+.app_explan_link span {
+    color: #4d4d4d;
+    margin-right: 0.5rem;
+}
+
+.app_explan_link img {
+	width: 1.625rem;
+	margin-top: -0.25rem;
+}
+
+.explan-modal-title {
+	color: #0933b3;
+	font-size: 1.125rem;
+	font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+    h1 small,
+    h2 small,
+    h3 small,
+    h4 small,
+    h5 small,
+    h6 small,
+    .h1 small,
+    .h2 small,
+    .h3 small,
+    .h4 small,
+    .h5 small,
+    .h6 small,
+    h1 .small,
+    h2 .small,
+    h3 .small,
+    h4 .small,
+    h5 .small,
+    h6 .small,
+    .h1 .small,
+    .h2 .small,
+    .h3 .small,
+    .h4 .small,
+    .h5 .small,
+    .h6 .small {
+        font-weight: normal;
+        line-height: 1;
+        color: #777;
+    }
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 1.250rem;
+    margin-bottom: 0.625rem;
+}
+
+    h1 small,
+    .h1 small,
+    h2 small,
+    .h2 small,
+    h3 small,
+    .h3 small,
+    h1 .small,
+    .h1 .small,
+    h2 .small,
+    .h2 .small,
+    h3 .small,
+    .h3 .small {
+        font-size: 65%;
+    }
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+    h4 small,
+    .h4 small,
+    h5 small,
+    .h5 small,
+    h6 small,
+    .h6 small,
+    h4 .small,
+    .h4 .small,
+    h5 .small,
+    .h5 .small,
+    h6 .small,
+    .h6 .small {
+        font-size: 75%;
+    }
+
+h1,
+.h1 {
+    font-size: 2.250rem;
+}
+
+h2,
+.h2 {
+    font-size: 1.875rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.500rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.125rem;
+}
+
+h5,
+.h5 {
+    font-size: 0.875rem;
+}
+
+h6,
+.h6 {
+    font-size: 0.750rem;
+}
+
+p {
+    margin: 0 0 0.625rem;
+}
+
+.text-con .text-title h2 {
+       margin:0;
+    }
+
+.header-nav nav ul li.li-border {
+border-left: #fff solid 0.0125rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+border-right: #fff solid 0.0125rem;
+}
+.accordion-header{
+    margin-top:0;
+}
+
+table.success th, table.success td {
+    border:1px solid #333
+}
+table.success td p,table.success th p,table.success td ul,table.success td ol {
+    margin: .5rem;
+}
