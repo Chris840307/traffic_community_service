@@ -92,7 +92,7 @@
           <a href="#C" title="中央內容區塊" id="AC" accesskey="C" name="C" style="">:::</a>
 
           <!-- Modal -->
-          <div class="modal show " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal show" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -120,69 +120,67 @@
             </div>
           </div>
 
-          <div class="container_s" style="background-color: white; min-height: 600px;">
-            <div class="row" style="padding-top: 20px; height: 100%;">
-              <div class="container_s">
-                <div class="card" style="margin: 5px 10px 10px 10px;line-height: 23px; font-size: 12px; background-color: orange;">
-                  <h2 class="card-header page_title" style="color: white;text-align: center;">交通事故案件申請須知</h2>
-                  <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
-                    
-                  <div class="row">
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        一、為提升政府行政透明度暨簡化行政程序，本局提供道路交通事故案件當事人或利害關係人得於線上申請道路交通事故初步分析研判表、現場圖及現場照片資料服務，並應遵守【政府資訊公開法】、【檔案法】及【個人資料保護法】等相關規定，另如有非法冒用當事人或利害關係人身分申請之行為致涉有法律責任部分，均應自行負責。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;color:blue;font-weight:bold;">
-                        二、本項服務提供申請資料，僅限新竹市警察局員警到場處理之A1（當事人死亡）、A2（當事人受傷）、A3（當事人未受傷僅財損案件）交通事故案件。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        三、事故當事人或利害關係人可於交通事故現場處理完畢<font color="red">7日後，申請「道路交通事故現場圖」、「現場相片」；</font>事故發生<font color="red">30日後，始可申請提供「道路交通事故初步分析研判表」。</font>
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        四、本系統為線上審查及核發，系統審查完畢後會發送雲端下載密碼至申請人填寫之電子信箱，請申請人屆時依郵件內容說明下載資料。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        五、案件「送出申請」後，無法修改資料，經審核資料錯誤或其他原因遭「退件」者，請重新申請。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        六、發生在其他縣市之交通事故請至內政部警政署全球資訊網 (<a href="https://tm2.npa.gov.tw/NM105-505ClientRWD2/TM01A01Q_01.jsp">https://tm2.npa.gov.tw/NM105-505ClientRWD2/TM01A01Q_01.jsp</a>)申請。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;">
-                        七、警察機關依道路交通事故處理辦法第10條所為之初步分析研判，非可完全作為理賠之依據，如對肇事原因有疑慮，仍應以「公路法」第67條所定車輛行車事故鑑定委員會鑑定之結果為準，得向交通部公路局竹苗區車輛行車事故鑑定會申請鑑定（地址：新竹市自由路10號2樓(新竹區監理所新竹監理站內)、電話：03-5319312 ）。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;color:red;">
-                        八、本服務提供申請之雲端資料，限7天內完成下載（例如8月1日通知可領件，請務必於8月8日前下載檔案) 。
-                      </div>
-                      <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;font-weight:bold;color:blue;">
-                        九、本項申請作業未經事故當事人同意而自行申辦者，將負相關法律責任。 <br>（委托書下載：<a href="https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc">https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc</a>）
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div style="background-color: white; min-height: 600px; padding-top: 20px;">
+            <div class="card" style="line-height: 23px; font-size: 12px; background-color: orange;">
+              <h2 class="card-header page_title" style="color: white;text-align: center;">交通事故案件申請須知</h2>
+              <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
 
-              <div class="card" style="margin: 5px 10px 10px 10px;line-height: 23px; font-size: 12px; background-color: #D9D9D9;">
-                <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
-                  <div class="row">
-                    <div class="col-11" style="width:100%;margin-left : 1.5em; text-indent : -1.5em;">
-                      <input type="checkbox" name="agree" id="agree" style="cursor: pointer;"> <span style="color:red;font-family: 標楷體;font-size: 18px;">(必勾)</span>
-                      <br>
-                      <span style="color: #00000099;font-family: 標楷體;font-size: 18px;">我已閱讀並同意新竹市警察局</span><a href="https://www.hccg.gov.tw/ch/home.jsp?id=10049&parentpath=0,19"><span style="color:blue;font-family: 標楷體;font-size: 18px;">【個人資料收集聲明及服務條款】</span></a><span style="color: #00000099;font-family: 標楷體;font-size: 18px;">暨相關</span><a href="https://www.hccg.gov.tw/ch/home.jsp?id=10049&parentpath=0,19"><span style="color:blue;font-family: 標楷體;font-size: 18px;">【隱私權政策】</span></a><span style="color: #00000099;font-family: 標楷體;font-size: 18px;">經確認填寫資料皆為真實，若相關資料經查證為不實或偽造之違法行為，願負起相關民事或刑事責任。</span>
-                    </div>
+                <div class="row" style="padding-left: 28px;">
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    一、為提升政府行政透明度暨簡化行政程序，本局提供道路交通事故案件當事人或利害關係人得於線上申請道路交通事故初步分析研判表、現場圖及現場照片資料服務，並應遵守【政府資訊公開法】、【檔案法】及【個人資料保護法】等相關規定，另如有非法冒用當事人或利害關係人身分申請之行為致涉有法律責任部分，均應自行負責。
                   </div>
-                  <br>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;color:blue;">
+                    二、本項服務提供申請資料，僅限新竹市警察局員警到場處理之A1（當事人死亡）、A2（當事人受傷）、A3（當事人未受傷僅財損案件）交通事故案件。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    三、事故當事人或利害關係人可於交通事故現場處理完畢<font color="red">7日後，申請「道路交通事故現場圖」、「現場相片」；</font>事故發生<font color="red">30日後，始可申請提供「道路交通事故初步分析研判表」。</font>
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    四、本系統為線上審查及核發，系統審查完畢後會發送雲端下載密碼至申請人填寫之電子信箱，請申請人屆時依郵件內容說明下載資料。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    五、案件「送出申請」後，無法修改資料，經審核資料錯誤或其他原因遭「退件」者，請重新申請。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    六、發生在其他縣市之交通事故請至內政部警政署全球資訊網 (<a href="https://tm2.npa.gov.tw/NM105-505ClientRWD2/TM01A01Q_01.jsp">https://tm2.npa.gov.tw/NM105-505ClientRWD2/TM01A01Q_01.jsp</a>)申請。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;">
+                    七、警察機關依道路交通事故處理辦法第10條所為之初步分析研判，非可完全作為理賠之依據，如對肇事原因有疑慮，仍應以「公路法」第67條所定車輛行車事故鑑定委員會鑑定之結果為準，得向交通部公路局竹苗區車輛行車事故鑑定會申請鑑定（地址：新竹市自由路10號2樓(新竹區監理所新竹監理站內)、電話：03-5319312 ）。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;color:red;">
+                    八、本服務提供申請之雲端資料，限7天內完成下載（例如8月1日通知可領件，請務必於8月8日前下載檔案) 。
+                  </div>
+                  <div class="col-12" style="text-indent:-32px;font-weight:bold;color:blue;">
+                    九、本項申請作業未經事故當事人同意而自行申辦者，將負相關法律責任。 <br>（委托書下載：<a href="https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc">https://tm2.npa.gov.tw/NM105-505ClientRWD2/assets/download/Sample.doc</a>）
+                  </div>
                 </div>
               </div>
-              <form action="new.php" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rX+mwli9OnTV6INibES5Y9fyk4ceD/lJizeU6ZHOyoHPjGFfdlr5yxR3tAHeBcT+r9m5QQpOXyHwcUzCuusCNg==" />
-                <div class="container_s" style="padding-top: 15px; min-height: 90px;">
-                  <div class="row justify-content-md-center justify-content-center" style="margin: 0px auto; line-height: 23px; font-size: 18px;">
-                  </div>
-                  <div class="row justify-content-md-center justify-content-center" style="margin: 0px auto; line-height: 23px; font-size: 18px;">
-                    <input type="submit" value="下一步" class="btn btn-lg btn-success submit_statement" disabled>
-                  </div>
-                  <br>
-                </div>
-              </form>
             </div>
+
+            <div class="card" style="margin-top: 10px;line-height: 23px; font-size: 12px; background-color: #D9D9D9;">
+              <div class="card-body bg-light" style="width: 100%; height: 100%; line-height: 28px; font-size: 12pt;">
+                <div class="row" style="padding-left: 28px;">
+                  <div class="col-12" style="text-indent:-32px;">
+                    <input type="checkbox" name="agree" id="agree" style="cursor: pointer;"> <span style="color:red;font-family: 標楷體;font-size: 18px;">(必勾)</span>
+                    <br>
+                    <span style="color: #00000099;font-family: 標楷體;font-size: 18px;">我已閱讀並同意新竹市警察局</span><a href="https://www.hccg.gov.tw/ch/home.jsp?id=10049&parentpath=0,19"><span style="color:blue;font-family: 標楷體;font-size: 18px;">【個人資料收集聲明及服務條款】</span></a><span style="color: #00000099;font-family: 標楷體;font-size: 18px;">暨相關</span><a href="https://www.hccg.gov.tw/ch/home.jsp?id=10049&parentpath=0,19"><span style="color:blue;font-family: 標楷體;font-size: 18px;">【隱私權政策】</span></a><span style="color: #00000099;font-family: 標楷體;font-size: 18px;">經確認填寫資料皆為真實，若相關資料經查證為不實或偽造之違法行為，願負起相關民事或刑事責任。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form action="new.php" accept-charset="UTF-8" method="post">
+              <input name="utf8" type="hidden" value="&#x2713;" />
+              <input type="hidden" name="authenticity_token" value="rX+mwli9OnTV6INibES5Y9fyk4ceD/lJizeU6ZHOyoHPjGFfdlr5yxR3tAHeBcT+r9m5QQpOXyHwcUzCuusCNg==" />
+              <div style="padding-top: 15px; min-height: 90px;">
+                <div class="row justify-content-md-center justify-content-center" style="margin: 0px auto; line-height: 23px; font-size: 18px;">
+                </div>
+                <div class="row justify-content-md-center justify-content-center" style="margin: 0px auto; line-height: 23px; font-size: 18px;">
+                  <input type="submit" value="下一步" class="btn btn-lg btn-success submit_statement" disabled>
+                </div>
+                <br>
+              </div>
+            </form>
           </div>
         </div>
       </div>
